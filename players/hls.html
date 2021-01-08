@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>ICOS City</title>
+		<link href="/static/video-js.css" rel="stylesheet">
+		<script src="/static/video.js"></script>
+	</head>
+	<body>
+		<video id="player" class="video-js vjs-default-skin" width="720" controls preload="auto" x5-video-player-type="h5">
+			<source src="/hls/hangtian.m3u8" type="application/x-mpegURL" />
+		</video>
+		<script>
+			var player = videojs('#player');
+		</script>
+
+	</body>
+
+</html>
